@@ -9,3 +9,5 @@ run ./backup_env.sh periodically on RCC.
 `conda install nb_conda_kernels`  
 Then, need to install jupyter and ipython for each environment:  
 `conda install -n myenv ipython jupyter`.
+- **To use R code**
+`conda install -c r r-irkernel`
