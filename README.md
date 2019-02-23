@@ -11,3 +11,6 @@ Then, need to install jupyter and ipython for each environment:
 `conda install -n myenv ipython jupyter`.
 - **To use R code**
 `conda install -c r r-irkernel`
+
+## notes
+maps environment currently can only use R 3.3.1 and data.table 1.9.6 this is caused by matrixstat package.
